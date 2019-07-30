@@ -1,6 +1,8 @@
 node_modules
 test
-.vscode
+# Allow for committing the dir and launch.json
+# Still ignore any user conf set locally (or at least until needed)
+.vscode/settings.json
 .vsixmanifest
 firstload.lock
 *.vsix
